@@ -9,7 +9,8 @@
 			$this->load->view('templates/footer');
 		} 
 
-		public function one(){	
+		//comment here
+			public function one(){	
 			$data['from'] = $this->user_model->get_from();
 			$data['to'] = $this->user_model->get_to();
 			$data['show'] = $this->user_model->oneway();
