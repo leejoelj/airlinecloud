@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> 'ddacsrv',
-	'hostname' => 'DESKTOP-SRCKSFJ',
-	'username' => '',
-	'password' => '',
-	'database' => 'airline',
+	'hostname' => 'airlineserver.database.windows.net',
+	'username' => 'demouser',
+	'password' => 'Demo@pass123',
+	'database' => 'airlineddac',
 	'dbdriver' => 'sqlsrv',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
