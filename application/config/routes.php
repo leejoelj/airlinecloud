@@ -63,7 +63,7 @@ $route['customer/complete'] = 'customer/complete';
 $route['customer/profile'] = 'customer/profile';
 $route['customer/edit_profile'] = 'customer/edit_profile';
 
-$route['default_controller'] = 'pages/view';
+$route['default_controller'] = 'http://ddac-ddac.azurewebsites.net/pages/view';
 
 
 $route['(:any)'] = 'pages/view/$1';
